@@ -7,13 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Drew",
-  "repository": "https://github.com/drewrwilson/deepdivetweeter",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/drewrwilson/deepdivetweeter"
+  },
   "license": "MIT",
   "engines": {
     "node": "0.10.26"
   },
   "dependencies": {
-    "twit": "",
-    "deepdive": ""
+    "twit": "~1.1.9",
+    "deepdive": ">=0.0.6"
   }
 }
