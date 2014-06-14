@@ -12,8 +12,9 @@
     "url": "https://github.com/drewrwilson/deepdivetweeter"
   },
   "license": "MIT",
-  "engines": {
-    "node": "0.10.17"
+   "engines": {
+    "node": "0.10.12",
+    "npm": "1.2.30"
   },
   "dependencies": {
     "twit": "~1.1.9",
