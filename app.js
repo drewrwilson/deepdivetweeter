@@ -73,7 +73,7 @@ function tweet() {
 //tweet once when the script starts
 tweet()
 
-//every 5 hours, tweet again
+//every 4 hours, tweet again
 setInterval(function () {
   try {
     tweet();
@@ -81,4 +81,4 @@ setInterval(function () {
   catch (e) {
     console.log(e);
   }
-}, 1000 * 60 * 60 * 5);
+}, 1000 * 60 * 60 * 4);
