@@ -1,0 +1,19 @@
+{
+  "name": "Deep-Dive-Tweeter",
+  "version": "0.0.1",
+  "description": "Tweet deepdive jargon madlib-style",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drew",
+  "repository": "https://github.com/drewrwilson/deepdivetweeter",
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.26"
+  },
+  "dependencies": {
+    "twit": "",
+    "deepdive": ""
+  }
+}
