@@ -34,7 +34,7 @@ function tweet() {
   madLib[1] = 'In the 21st century it is vital that there be ' + random[0] + ' included in every ' + random[1] + '. Otherwise there will be no ' + random[2]; '.'
   madLib[2] = 'Who was it who said that a ' + random[0] + ' is the first step towards ' + random[1] + '? I wonder if they considered the implications of the ' + random[2]; '.'
   madLib[3] = 'The ' + random[0] + ' is nothing without ' + random[1] + '!'
-  madLib[4] = 'If I hear about one more ' + random[0] + ', I am going to seriously ' + random[1] + '.'
+  madLib[4] = 'If I hear about ' + random[0] + ' one more time, I am going to seriously ' + random[1] + '.'
   madLib[5] = 'The ' + random[0] + ' is more likely to involve ' + random[1] + ' than you may think.'
   madLib[6] = 'My ' + random[0] + ' can kick your ' + random[1] + '\'s butt.'
   madLib[7] = 'Without a significant ' + random[0] + ', ' + random[1] + ' is almost worthless.'
@@ -81,4 +81,4 @@ setInterval(function () {
   catch (e) {
     console.log(e);
   }
-}, 1000 * 60 * 60 * 4);
+}, 1000 * 60 * 60 * 2);
