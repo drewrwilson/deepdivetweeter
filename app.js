@@ -43,6 +43,7 @@ function tweet() {
   madLib[10] = 'Your project could always use a little more ' + random[0] + ' or maybe some ' + random[1] + '. So go out there and make it happen.'
   madLib[11] = 'Your project could always use a little more ' + random[0] + ' and a lot more ' + random[1] + '. Got it, champ?'
   madLib[11] = '' + random[0] + ' is best in conjunction with ' + random[1];
+  madLib[12] = '' + random[0] + '\'s ' + random[1] + ' may not actually be ' + random[1] + '.';
 
   myTweet = madLib.pick();
 
