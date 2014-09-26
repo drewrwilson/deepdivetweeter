@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "twit": "~1.1.9",
-    "deepdive": ">=0.0.6"
+    "deepdive": ">=0.2.0"
   }
 }
